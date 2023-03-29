@@ -1,0 +1,221 @@
+body{
+    background-color: bisque;
+    padding: 20px;
+}
+header {
+    margin-bottom: 0;
+    text-align: center;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 100%;
+    height: 100px;
+    background-image: url("./img/descarga.jfif")  ;
+}
+header h1{
+   margin-top: -0%;
+   margin-bottom: 0%;
+   margin-left: 30%;
+   height: auto;
+   float: left;
+   width: 40%;
+   color: #fff;
+   text-shadow:
+       0 0 7px #fff,
+       0 0 10px #fff,
+       0 0 21px #fff,
+       0 0 42px #0fa,
+       0 0 82px #0fa,
+       0 0 92px #0fa,
+       0 0 102px #0fa,
+       0 0 151px #0fa;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo {
+   position: absolute;
+   height: 12%;
+   width: 8%;   
+}
+#logo img{position: static;
+   width: 100%;
+   height: 120%;
+}
+#redes1{
+   padding: 1%;
+   height: 40%;
+   width: 14%;  
+   float: right;
+}
+   #redes1 img{
+      right: 0;
+      margin-right: 2%;
+      height: 100%;
+      width: 27%;   
+   }
+ nav{ 
+      position: absolute;
+    width: 100%;
+    height: 62px;
+    margin-bottom: 1%;
+   }
+ nav ul{ 
+      position: absolute;
+    width: 100%;
+    padding: 0;
+    margin-top: 4px;
+    list-style-type: none;
+    left: 0;
+ }
+ nav ul li{ 
+      margin-right: 3px;
+      left: 0;
+      width: 23.77%;
+      height: 45px;
+    float: left;
+ }
+ nav ul li a {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-decoration: none;
+      list-style: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    background: rgb(82, 82, 82);
+ }
+ nav ul li a:hover{
+   background: rgb(255, 209, 209);
+ }
+ article{
+   display: flex;
+   flex-direction: column;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: 62px;
+   width: 70%;
+   height: 800px;
+ }
+#articulo1 {
+   border-radius: 12%;
+   background-image: url("./img/depositphotos_313901472-stock-illustration-cat-paws-seamless-wallpaper-pattern.jpg");
+   width: 100%;
+   height: 48%;
+}
+#articulo1 div h3{
+   text-align: center;
+   Font-family: Cambria, Georgia, serif;
+   color: rgb(0, 0, 0);   
+}
+#articulo1 div#text{
+   position: absolute;
+   float: left;
+   color: rgb(0, 0, 0);
+   width: 50%;
+   height: auto;
+   font-size: larger;
+}
+#text p{
+   Font-family: Cambria, Georgia, serif;
+   margin: 5%;
+}
+#articulo1 div#text1{
+   float: right;
+   width: 50%;
+   height: auto;
+}
+#text1 img{
+   border-radius: 20%;
+   margin-left: 15% ;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   width: 75%;
+   height: 50%;
+}
+#articulo2 {
+   border-radius: 12%;
+   background-image: url("./img/patrón-de-tramos-siluetas-garras-pies-gatos-huellas-perros-pastel-rosa-desnudo-en-un-fondo-transparente-sin-inconvenientes-158327895.jpg");
+   width: 100%;
+   height: 48%;
+}
+#articulo2 div h3{
+   text-align: center;
+   Font-family: Cambria, Georgia, serif;
+   color: rgb(0, 0, 0);   
+}
+#text2{
+   position: absolute;
+   float: left;
+   color: rgb(0, 0, 0);
+   width: 50%;
+   height: auto;
+   font-size: larger;
+   Font-family: Cambria, Georgia, serif;
+}
+#text2 p{
+   margin: 5%;
+}
+#text3{
+   float: right;
+   width: 49%;
+   height: auto;
+}
+#text3 img {
+   border-radius: 10%;
+   margin-left: 15% ;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   width: 75%;
+   height: 50%;
+}
+#formulario{
+   position: absolute;
+   display: flex;
+   width: 25%;
+   right: 0;
+   margin-top: 60px; 
+   justify-content: space-around;
+   height: 800px;
+   flex-direction: column;
+}
+#Z form{
+   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+   font-size: 93%;
+   width: 100%;
+   margin: auto;
+   text-align: left;
+   
+}
+#pnombre {
+   width: 95%;
+}
+#Nid{
+   width: 95%;
+}
+#Z form input{
+   border-radius: 20%;
+   border-color: red;
+}
+#Z{
+    margin-bottom: 30px;
+   width: 90%;
+   background-color: rgb(243, 187, 120);
+   height: 50%;
+   border-radius: 10%;
+}
+#ZX{
+  
+   width: 90%;
+   background-color: rgb(243, 187, 120);
+   height: 50%;
+   border-radius: 10%;
+}
+footer{
+   height:auto;
+   position: relative;
+   top: 892px;
+   text-align: center;
+}
+
+
+
+
